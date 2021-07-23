@@ -44,7 +44,7 @@ export default defineComponent({
   },
   data() {
     return {
-      apiKey: '60fa7691-5001-4393-b7c5-a2bc22f12a3a',
+      apiKey: '',
       weeks: 2,
       projects: null,
       stories: null,
