@@ -1,3 +1,4 @@
+<!--  // @ts-nocheck-->
 <template>
   <label for="api-input">Clubhouse API Key</label>
   <input v-model="apiKey" id="api-input" type="text" >
@@ -36,6 +37,7 @@
 </template>
 
 <script lang="ts">
+// @ts-nocheck
 import { defineComponent } from 'vue'
 import {getProjects, getStories} from "../fetchData";
 export default defineComponent({
