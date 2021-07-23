@@ -1,5 +1,6 @@
 {
   "name": "clubhouse-status-gen",
+  "homepage": "https://x8bitrain.github.io/clubhouse-status-gen/",
   "version": "0.0.1",
   "scripts": {
     "dev": "vite",
