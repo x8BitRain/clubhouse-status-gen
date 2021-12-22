@@ -29,7 +29,7 @@
       {{getEmoji()}} {{categories.name}} {{getEmoji()}}
       <ul>
         <li v-for="story in categories.stories">
-          {{story.name}}
+          {{story.name}} <a :href="story.app_url">[ch{{story.id}}]</a>
         </li>
       </ul>
     </div>
